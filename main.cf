@@ -6,7 +6,8 @@ inet_protocols = ipv4
 
 # Relay settings
 # Specifies the next-hop destination for relayed mail.
-relayhost = [my.maildomain.com]:587
+#relayhost = [my.maildomain.com]:587
+relayhost = [my.maildomain.com]:25
 # Defines domains for which this machine will relay mail.
 relay_domains = maildomain.com
 
